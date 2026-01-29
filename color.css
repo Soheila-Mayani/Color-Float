@@ -1,0 +1,137 @@
+/*Common Area*/
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    background-color: #ecf0f1;
+}
+/*Design Navigation*/
+.nav{
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px; 
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav ul li{
+    display: inline;
+    padding: 10px;
+    margin-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 900;   
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: darkblue;
+}
+
+.nav ul li a:hover{
+    color: darkgreen;  
+}
+.nav ul li a:active{
+    color: orange;
+    font-weight: bold;
+}
+.nav ul li a:visited{
+    color: purple;
+}
+/*Design The Decsription Section*/
+/*hight and margin-bottom are applied here to make two main sections of the page ovelap in the same area*/
+.header{
+    background-color:#2e7d32;
+    height: 500px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-style: italic;
+    padding: 10px;
+    margin: 5px auto;
+}
+.header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px auto;
+    color: white;
+    letter-spacing: 2px;
+}
+.header input[type="button"]{
+    text-align: center;
+    background-color: #a1887f;
+    color: white;
+    border: 5px solid white;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 20px auto;
+}
+/*Desine Color Boxes Area*/
+.categories{
+    width: 80%;
+ 
+    margin-left: auto;
+    margin-right: auto;
+}
+/*the space between 33.3% and 10px is important becasue some brosers may not process it correctly without the space*/
+/*heigt and margin-top with negative value assignment to make ovelab*/
+.block{
+    border:10px solid #8d6e63;
+    float: left;
+    width: calc(33.3% - 6.7px);
+    height: 400px;
+    margin-top: -250px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f5f0e6;
+  
+}
+.block:nth-child(2){
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.block i{
+    font-size: 100px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#water{
+    color: blue;
+}
+#tree{
+    color: green;
+}
+#fire{
+    color: red;
+}
+.block h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    letter-spacing: 3px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.block p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-align: justify;
+    padding: 5px;
+    margin: auto;
+    
+}
+
